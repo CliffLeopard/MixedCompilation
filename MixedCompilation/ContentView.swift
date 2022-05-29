@@ -9,8 +9,17 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        Text("Hello, world!")
-            .padding()
+        NavigationView{
+            VStack{
+                NavigationLink("Demo For OC Call") {
+                    OCCallView()
+                }
+                NavigationLink("Demo For Mixed") {
+                    MixedView()
+                }
+            }
+        }
+        
     }
 }
 

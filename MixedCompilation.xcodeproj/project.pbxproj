@@ -14,6 +14,17 @@
 		3C52C9802843A2C000CD5398 /* MixedCompilationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C52C97F2843A2C000CD5398 /* MixedCompilationTests.swift */; };
 		3C52C98A2843A2C000CD5398 /* MixedCompilationUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C52C9892843A2C000CD5398 /* MixedCompilationUITests.swift */; };
 		3C52C98C2843A2C000CD5398 /* MixedCompilationUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C52C98B2843A2C000CD5398 /* MixedCompilationUITestsLaunchTests.swift */; };
+		3C52C9A32843A2FE00CD5398 /* MixedDemoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C52C9992843A2FE00CD5398 /* MixedDemoView.swift */; };
+		3C52C9A42843A2FE00CD5398 /* CPCase.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3C52C99C2843A2FE00CD5398 /* CPCase.cpp */; };
+		3C52C9A52843A2FE00CD5398 /* CCase.c in Sources */ = {isa = PBXBuildFile; fileRef = 3C52C99F2843A2FE00CD5398 /* CCase.c */; };
+		3C52C9A62843A2FE00CD5398 /* OCCase.mm in Sources */ = {isa = PBXBuildFile; fileRef = 3C52C9A12843A2FE00CD5398 /* OCCase.mm */; };
+		3C52C9AA2843AA3B00CD5398 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 3C52C9A92843AA3B00CD5398 /* README.md */; };
+		3C52C9AD2843AC3400CD5398 /* OCCPPBridge.mm in Sources */ = {isa = PBXBuildFile; fileRef = 3C52C9AB2843AC3400CD5398 /* OCCPPBridge.mm */; };
+		3C52C9B12843ACDF00CD5398 /* MixedBridge.mm in Sources */ = {isa = PBXBuildFile; fileRef = 3C52C9AF2843ACDF00CD5398 /* MixedBridge.mm */; };
+		3C52C9B52843B1C500CD5398 /* MixedCenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C52C9B42843B1C500CD5398 /* MixedCenter.swift */; };
+		3C52C9B82843B36300CD5398 /* OCCallView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C52C9B72843B36300CD5398 /* OCCallView.swift */; };
+		3C52C9BA2843B40500CD5398 /* MixedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C52C9B92843B40500CD5398 /* MixedView.swift */; };
+		3C52C9BE2843B5AE00CD5398 /* CPPMixedCase.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3C52C9BC2843B5AD00CD5398 /* CPPMixedCase.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +55,25 @@
 		3C52C9852843A2C000CD5398 /* MixedCompilationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MixedCompilationUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3C52C9892843A2C000CD5398 /* MixedCompilationUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MixedCompilationUITests.swift; sourceTree = "<group>"; };
 		3C52C98B2843A2C000CD5398 /* MixedCompilationUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MixedCompilationUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		3C52C9992843A2FE00CD5398 /* MixedDemoView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MixedDemoView.swift; sourceTree = "<group>"; };
+		3C52C99B2843A2FE00CD5398 /* CPCase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CPCase.h; sourceTree = "<group>"; };
+		3C52C99C2843A2FE00CD5398 /* CPCase.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CPCase.cpp; sourceTree = "<group>"; };
+		3C52C99E2843A2FE00CD5398 /* CCase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCase.h; sourceTree = "<group>"; };
+		3C52C99F2843A2FE00CD5398 /* CCase.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = CCase.c; sourceTree = "<group>"; };
+		3C52C9A12843A2FE00CD5398 /* OCCase.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = OCCase.mm; sourceTree = "<group>"; };
+		3C52C9A22843A2FE00CD5398 /* OCCase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OCCase.h; sourceTree = "<group>"; };
+		3C52C9A72843A35700CD5398 /* Mixed-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Mixed-Bridging-Header.h"; sourceTree = "<group>"; };
+		3C52C9A92843AA3B00CD5398 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		3C52C9AB2843AC3400CD5398 /* OCCPPBridge.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = OCCPPBridge.mm; sourceTree = "<group>"; };
+		3C52C9AC2843AC3400CD5398 /* OCCPPBridge.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = OCCPPBridge.hpp; sourceTree = "<group>"; };
+		3C52C9AF2843ACDF00CD5398 /* MixedBridge.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = MixedBridge.mm; sourceTree = "<group>"; };
+		3C52C9B02843ACDF00CD5398 /* MixedBridge.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MixedBridge.h; sourceTree = "<group>"; };
+		3C52C9B32843AD7B00CD5398 /* OCSwiftBridgeProtocal.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OCSwiftBridgeProtocal.h; sourceTree = "<group>"; };
+		3C52C9B42843B1C500CD5398 /* MixedCenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MixedCenter.swift; sourceTree = "<group>"; };
+		3C52C9B72843B36300CD5398 /* OCCallView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OCCallView.swift; sourceTree = "<group>"; };
+		3C52C9B92843B40500CD5398 /* MixedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MixedView.swift; sourceTree = "<group>"; };
+		3C52C9BC2843B5AD00CD5398 /* CPPMixedCase.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = CPPMixedCase.cpp; sourceTree = "<group>"; };
+		3C52C9BD2843B5AD00CD5398 /* CPPMixedCase.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = CPPMixedCase.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +104,7 @@
 		3C52C9622843A2BF00CD5398 = {
 			isa = PBXGroup;
 			children = (
+				3C52C9A92843AA3B00CD5398 /* README.md */,
 				3C52C96D2843A2BF00CD5398 /* MixedCompilation */,
 				3C52C97E2843A2C000CD5398 /* MixedCompilationTests */,
 				3C52C9882843A2C000CD5398 /* MixedCompilationUITests */,
@@ -94,10 +125,14 @@
 		3C52C96D2843A2BF00CD5398 /* MixedCompilation */ = {
 			isa = PBXGroup;
 			children = (
+				3C52C9B62843B33100CD5398 /* OCCall */,
+				3C52C9982843A2FE00CD5398 /* Mixed */,
 				3C52C96E2843A2BF00CD5398 /* MixedCompilationApp.swift */,
 				3C52C9702843A2BF00CD5398 /* ContentView.swift */,
+				3C52C9992843A2FE00CD5398 /* MixedDemoView.swift */,
 				3C52C9722843A2C000CD5398 /* Assets.xcassets */,
 				3C52C9742843A2C000CD5398 /* Preview Content */,
+				3C52C9A72843A35700CD5398 /* Mixed-Bridging-Header.h */,
 			);
 			path = MixedCompilation;
 			sourceTree = "<group>";
@@ -125,6 +160,92 @@
 				3C52C98B2843A2C000CD5398 /* MixedCompilationUITestsLaunchTests.swift */,
 			);
 			path = MixedCompilationUITests;
+			sourceTree = "<group>";
+		};
+		3C52C9982843A2FE00CD5398 /* Mixed */ = {
+			isa = PBXGroup;
+			children = (
+				3C52C9B22843ACF900CD5398 /* OC-Swift-Bridge */,
+				3C52C9AE2843ACAF00CD5398 /* Mixed-Bridge */,
+				3C52C9A82843A9F000CD5398 /* CPP-OC-Bridge */,
+				3C52C9BB2843B54F00CD5398 /* CPP */,
+				3C52C9B92843B40500CD5398 /* MixedView.swift */,
+				3C52C9B42843B1C500CD5398 /* MixedCenter.swift */,
+			);
+			path = Mixed;
+			sourceTree = "<group>";
+		};
+		3C52C99A2843A2FE00CD5398 /* CPClass */ = {
+			isa = PBXGroup;
+			children = (
+				3C52C99B2843A2FE00CD5398 /* CPCase.h */,
+				3C52C99C2843A2FE00CD5398 /* CPCase.cpp */,
+			);
+			path = CPClass;
+			sourceTree = "<group>";
+		};
+		3C52C99D2843A2FE00CD5398 /* CClass */ = {
+			isa = PBXGroup;
+			children = (
+				3C52C99E2843A2FE00CD5398 /* CCase.h */,
+				3C52C99F2843A2FE00CD5398 /* CCase.c */,
+			);
+			path = CClass;
+			sourceTree = "<group>";
+		};
+		3C52C9A02843A2FE00CD5398 /* OCClass */ = {
+			isa = PBXGroup;
+			children = (
+				3C52C9A12843A2FE00CD5398 /* OCCase.mm */,
+				3C52C9A22843A2FE00CD5398 /* OCCase.h */,
+			);
+			path = OCClass;
+			sourceTree = "<group>";
+		};
+		3C52C9A82843A9F000CD5398 /* CPP-OC-Bridge */ = {
+			isa = PBXGroup;
+			children = (
+				3C52C9AB2843AC3400CD5398 /* OCCPPBridge.mm */,
+				3C52C9AC2843AC3400CD5398 /* OCCPPBridge.hpp */,
+			);
+			path = "CPP-OC-Bridge";
+			sourceTree = "<group>";
+		};
+		3C52C9AE2843ACAF00CD5398 /* Mixed-Bridge */ = {
+			isa = PBXGroup;
+			children = (
+				3C52C9AF2843ACDF00CD5398 /* MixedBridge.mm */,
+				3C52C9B02843ACDF00CD5398 /* MixedBridge.h */,
+			);
+			path = "Mixed-Bridge";
+			sourceTree = "<group>";
+		};
+		3C52C9B22843ACF900CD5398 /* OC-Swift-Bridge */ = {
+			isa = PBXGroup;
+			children = (
+				3C52C9B32843AD7B00CD5398 /* OCSwiftBridgeProtocal.h */,
+			);
+			path = "OC-Swift-Bridge";
+			sourceTree = "<group>";
+		};
+		3C52C9B62843B33100CD5398 /* OCCall */ = {
+			isa = PBXGroup;
+			children = (
+				3C52C99A2843A2FE00CD5398 /* CPClass */,
+				3C52C99D2843A2FE00CD5398 /* CClass */,
+				3C52C9A02843A2FE00CD5398 /* OCClass */,
+				3C52C9B72843B36300CD5398 /* OCCallView.swift */,
+			);
+			path = OCCall;
+			sourceTree = "<group>";
+		};
+		3C52C9BB2843B54F00CD5398 /* CPP */ = {
+			isa = PBXGroup;
+			children = (
+				3C52C9BC2843B5AD00CD5398 /* CPPMixedCase.cpp */,
+				3C52C9BD2843B5AD00CD5398 /* CPPMixedCase.hpp */,
+			);
+			path = CPP;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -231,6 +352,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3C52C9AA2843AA3B00CD5398 /* README.md in Resources */,
 				3C52C9762843A2C000CD5398 /* Preview Assets.xcassets in Resources */,
 				3C52C9732843A2C000CD5398 /* Assets.xcassets in Resources */,
 			);
@@ -257,8 +379,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3C52C9AD2843AC3400CD5398 /* OCCPPBridge.mm in Sources */,
 				3C52C9712843A2BF00CD5398 /* ContentView.swift in Sources */,
+				3C52C9B82843B36300CD5398 /* OCCallView.swift in Sources */,
+				3C52C9BE2843B5AE00CD5398 /* CPPMixedCase.cpp in Sources */,
+				3C52C9A52843A2FE00CD5398 /* CCase.c in Sources */,
+				3C52C9B52843B1C500CD5398 /* MixedCenter.swift in Sources */,
+				3C52C9BA2843B40500CD5398 /* MixedView.swift in Sources */,
 				3C52C96F2843A2BF00CD5398 /* MixedCompilationApp.swift in Sources */,
+				3C52C9B12843ACDF00CD5398 /* MixedBridge.mm in Sources */,
+				3C52C9A62843A2FE00CD5398 /* OCCase.mm in Sources */,
+				3C52C9A42843A2FE00CD5398 /* CPCase.cpp in Sources */,
+				3C52C9A32843A2FE00CD5398 /* MixedDemoView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -433,6 +565,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.cliff.MixedCompilation;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "MixedCompilation/Mixed-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -462,6 +595,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.cliff.MixedCompilation;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "MixedCompilation/Mixed-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
